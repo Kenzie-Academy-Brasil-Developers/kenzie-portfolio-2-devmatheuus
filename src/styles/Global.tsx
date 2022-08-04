@@ -158,6 +158,9 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
 
   const App = styled("div", {
     minHeight: "100vh",
+
+    overflowX: "hidden"
+
   });
 
   return <App className={theme}>{children}</App>;
