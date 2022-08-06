@@ -33,7 +33,7 @@ export const Footer = (): JSX.Element => {
           <Button className="facebook" type="circle" as="a" target="_blank" href={`https://github.com/${userData.githubUser}`}>
             <FaGithub />
           </Button>
-          <Button className="linkedin" type="circle" as="a" target="_blank" href={`https://linkedin.com/in/${userData.linkedinUser}`}>
+          <Button className="linkedin" type="circle" as="a" target="_blank" href={`${userData.linkedinUser}`}>
             <FaLinkedinIn />
           </Button>
         </Flex>
